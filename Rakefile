@@ -15,11 +15,6 @@ namespace :greeting do
     puts "hola de Rake!"
   end
 
-  desc 'outputs julio name'
-  task :julio do
-    puts "this is cool ig"
-  end
-
   namespace :db do 
     desc 'migrate changes to your databse'
     task :migrate => :environment do
